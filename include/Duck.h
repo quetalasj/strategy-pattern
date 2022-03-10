@@ -15,6 +15,8 @@ public:
     void performFly() const;
     void performQuack() const;
     void swim();
+    void setFlyBehaviour(const shared_ptr<FlyBehaviour> &fb);
+    void setQuackBehaviour(const shared_ptr<QuackBehaviour> &qb);
 };
 
 #endif //STRATEGY_PATTERN_DUCK_H
